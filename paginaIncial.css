@@ -1,0 +1,130 @@
+#inicial{
+    text-align: center;
+    background-image: url("/home/hamad/Documentos/Challenge-ONE/arquivos/2.png") ;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+  .btn, .bnt{
+    position:relative;
+    top:400px;
+  }
+  .btn{
+
+    background: #B9DFFF;
+    
+    color: #fff;
+    
+    border: 1px solid #eee;
+    
+    border-radius: 20px;
+    
+    box-shadow: 5px 5px 5px #eee;
+    
+    text-shadow:none;
+
+    height: 50px;
+
+    width: 150px;
+    
+    }
+  .btn-green{
+    background:rgb(252, 1, 252);
+    color:rgb(255, 255, 255);
+    box-shadow:0 5px 0 #2d0060;
+    position:relative;
+    top:400px;
+  }
+  .btn-green:hover {
+
+    background: #016ABC;
+    
+    color: #fff;
+    
+    border: 1px solid #eee;
+    
+    border-radius: 20px;
+    
+    box-shadow: 5px 5px 5px #eee;
+    
+    text-shadow:none;
+
+    position:relative;
+
+    top:400px;
+    
+    }
+  .btn-green:active{
+    position:relative;
+    top:3px;
+    box-shadow:none;
+    position:relative;
+    top:400px;
+  }
+  
+
+  .bnt:focus, .bnt::-moz-focus-inner{
+    outline:none;
+    border:none;
+  }
+  .bnt{
+    background: #B9DFFF;
+    
+    color: #fff;
+    
+    border: 1px solid #eee;
+    
+    border-radius: 20px;
+    
+    box-shadow: 5px 5px 5px #eee;
+    
+    text-shadow:none;
+
+    height: 50px;
+
+    width: 150px;
+  }
+  .bnt-green{
+    background:rgb(252, 1, 252);
+    color:#fff;
+    box-shadow:0 5px 0 #2d0060;
+    position:relative;
+    top:400px;
+  }
+  .bnt-green:hover{
+    background: #016ABC;
+    
+    color: #fff;
+    
+    border: 1px solid #eee;
+    
+    border-radius: 20px;
+    
+    box-shadow: 5px 5px 5px #eee;
+    
+    text-shadow:none;
+
+    position:relative;
+    
+    top:400px;
+  }
+  .bnt-green:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+    position:relative;
+    top:400px;
+  }
+  
+
+  a:link, a:visited {
+    color: (white);
+    text-decoration: none;
+    cursor: auto;
+  }
+  
+  a:link:active, a:visited:active {
+    color: (white);
+  }

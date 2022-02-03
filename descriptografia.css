@@ -1,0 +1,93 @@
+#descriptografia{
+  text-align: center;
+  background-image: url("/home/hamad/Documentos/Challenge-ONE/arquivos/1.png") ;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.div1, .div2{
+  position:relative;
+}
+.input1,.input2{
+  background:#38387e4f;
+  width:20%;
+  position:relative;
+  font-size:"20pt";
+  color:#ffffff;
+  border:1px rgb(0, 0, 0) solid;
+  padding: 10px 10px 10px 15px;
+  box-sizing: content-box;
+  z-index: 2;
+}
+.input1:focus,.input2:focus{
+  margin-top:0px;
+  top: -50%;
+  z-index:2;
+  transition:0,2s;
+}
+
+.btn, .copy, .bnt{
+
+  background: #322F5D;
+  
+  color: #fff;
+  
+  border: 1px solid #eee;
+  
+  border-radius: 20px;
+  
+  box-shadow: 5px 5px 5px #eee;
+  
+  text-shadow:none;
+
+  height: 50px;
+
+  width: 150px;
+  
+  }
+.btn-green, .bnt-green{
+  background:483a63;
+  color:rgb(255, 255, 255);
+  box-shadow:0 5px 0 #2d0060;
+}
+.btn-green:hover, .bnt-green:hover {
+
+  background: #016ABC;
+  
+  color: #fff;
+  
+  border: 1px solid #eee;
+  
+  border-radius: 20px;
+  
+  box-shadow: 5px 5px 5px #eee;
+  
+  text-shadow:none;
+  
+  }
+.btn-green:active, .bnt-green:active{
+  position:relative;
+  top:3px;
+  box-shadow:none;
+}
+
+a:link {
+  color:#ff0000;
+  text-decoration:none;
+}
+a:visited {
+  color:#ffffff;
+  text-decoration:none;
+}
+a:hover {
+  color:#ffffff;
+  text-decoration:none;
+}
+a:active {
+  color:#ffffff;
+  text-decoration:none;
+  background-color:#016ABC;
+}
